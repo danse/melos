@@ -1,5 +1,6 @@
 (ns melos.chord
   (:require [clojure.algo.generic.functor :as functor]
+            [clojure.set :as set]
             [clojure.math
              [combinatorics :as combinatorics]
              [numeric-tower :as math]]
